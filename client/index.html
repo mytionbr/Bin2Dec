@@ -5,26 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bin2Dec</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <h1>Binary to decimal converter</h1>
+    <div class="container">
+        <div class="container-input">
+            <h1>Binary to decimal converter</h1>
 
-    <label for="bin">Binary</label>
-    <input id="bin" type="text" pattern="[0-9]+$">
-    <br>
-    <button id="convert">converter</button>
-    <br>
-    <label for="dec">Decimal</label>
-    <input id="dec" type="text">
+            <label for="bin">Binary</label>
+            <input id="bin" type="text" pattern="[0-9]+$">
+            <br>
 
+            <label for="dec">Decimal</label>
+            <input id="dec" type="text">
+            </br>
+            <button id="convert">converter</button>
+        </div>
+    </div>
     <script src="js/controller/BinController.js"></script>
     <script>
-      
-     let binController = new BinController();
-    
 
-   </script>
+        let binController = new BinController();
+
+    </script>
 </body>
 
 </html>

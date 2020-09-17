@@ -15,7 +15,6 @@ class BinController {
     convert(event) {
         event.preventDefault();
         let binariesNumbers = this._inputBin.value.split('').map(Number).reverse();
-        console.log(binariesNumbers);
         this._inputDec.value = this._convertsBinToDecimal(binariesNumbers);
 
     }

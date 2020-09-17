@@ -1,0 +1,35 @@
+body {
+    background-image:url('../img/fundo-matrix.jpg');
+}
+.container{
+    width: 450px;
+    height:400px;
+    background-color:black;
+    opacity: 0.8;
+    margin: 100px auto;
+}
+.container h1, label{
+    color: rgb(72, 254, 0);
+}
+input{
+    background: rgb(72, 254, 0);
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+label,input{
+    font-size:30px;
+    margin: 10px 10px;
+}
+button {
+    margin: 10px auto;
+    font-size: 30px;
+    background-color: rgb(72, 254, 0);
+}
+.container-input{
+    display: flex;
+    flex-direction: column;
+}
