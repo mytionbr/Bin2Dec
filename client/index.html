@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bin2Dec</title>
 </head>
+
 <body>
     <h1>Binary to decimal converter</h1>
 
     <label for="bin">Binary</label>
-    <input id="bin"type="text">
+    <input id="bin" type="text">
     <br>
-    <button>converter</button>
+    <button id="convert">converter</button>
     <br>
     <label for="dec">Decimal</label>
-    <input id="dec"type="text">
+    <input id="dec" type="text">
+
+    <script src="js/controller/BinController.js"></script>
+    <script>
+      
+     let binController = new BinController();
+    
+
+   </script>
 </body>
+
 </html>
