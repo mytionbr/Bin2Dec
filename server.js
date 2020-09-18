@@ -8,6 +8,6 @@ app.get("/", function(req,res){
 })
 
 
-app.listen(8080,function(){
+app.listen(process.env.PORT || 5000,function(){
     console.log("the server is standing");
 })
